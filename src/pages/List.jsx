@@ -5,6 +5,8 @@ const List = () => {
     <div>
       <h1>List Page</h1>
       <Link to="/profile">Profile</Link>
+      <br />
+      <Link to="/input">Input</Link>
     </div>
   );
 };
