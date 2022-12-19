@@ -48,7 +48,7 @@ const Text = () => {
         id="person"
         value={person}
         onChange={handleInput}
-        placeholder="좋아하는 사람"
+        placeholder="좋아하는 배우"
       />
       &nbsp;
       <input
