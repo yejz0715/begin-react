@@ -2,6 +2,7 @@ import React from "react";
 import Text from "../components/Text";
 import User from "../components/User";
 import Book from "../components/Book";
+import UserList from "../components/UserList";
 const Input = () => {
   const users = [
     {
@@ -44,6 +45,8 @@ const Input = () => {
       {books.map((item) => (
         <Book key={item.id} title={item.title} price={item.price} />
       ))}
+      <br />
+      <UserList />
     </div>
   );
 };

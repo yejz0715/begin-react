@@ -7,6 +7,7 @@ import Study from "../components/Study";
 import img from "../assets/img.png";
 import "../style/style.css";
 import NickName from "../components/NickName";
+import BucketList from "../components/BucketList";
 
 const Profile = () => {
   return (
@@ -22,6 +23,7 @@ const Profile = () => {
         <Age />
         <Email email="yeze0715@gmail.com" />
         <Study study="react" />
+        <BucketList />
       </div>
     </div>
   );
