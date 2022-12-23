@@ -22,6 +22,9 @@ const Age = () => {
   const handleLeft = () => {
     setLeftNum(num);
   };
+  const handleReset = () => {
+    setNum(0);
+  };
   return (
     <>
       <p>
@@ -32,7 +35,8 @@ const Age = () => {
       </p>
       <label>{num}</label>&nbsp;&nbsp;
       <button onClick={onIncrease}>+1</button>&nbsp;
-      <button onClick={onDecrease}>-1</button>
+      <button onClick={onDecrease}>-1</button>&nbsp;
+      <button onClick={handleReset}>reset</button>
     </>
   );
 };
